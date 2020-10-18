@@ -2,11 +2,11 @@ module.exports = {
   title: 'DSV1 Site My Site.',
   tagline: 'The tagline of my site',
   url: 'https://rienkdekok.github.io',
-  baseUrl: '/dsv1/',
+  baseUrl: '/dsv1source/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'rienkdekok', // Usually your GitHub org/user name.
-  projectName: 'dsv1', // Usually your repo name.
+  projectName: 'dsv1source', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',

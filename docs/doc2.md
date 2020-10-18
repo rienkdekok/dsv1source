@@ -18,3 +18,7 @@ Does it render now?
 
 # Header 1
 What is the size of this thing?
+
+## En header level 2
+Waar blijft dat dan?
+Next local versus remote.

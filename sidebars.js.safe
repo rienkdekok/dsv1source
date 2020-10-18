@@ -1,0 +1,22 @@
+module.exports = {
+  SidebarLeft: [
+   {
+     type: 'category',
+     label: 'Sectie I',
+     collapsed: true,
+     items: [
+	'doc4',
+	{
+		Docs: [ 'doc2','doc3' ],
+	},
+	'doc4'],
+	],
+   },
+   {
+     type: 'category',
+     label: 'Sectie II',
+     collapsed: true,
+     items: ['doc2','doc3'],
+   },
+  ],
+};

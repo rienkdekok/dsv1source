@@ -1,8 +1,29 @@
 module.exports = {
-  someSidebar: {
-    "Section I": ['doc1', 'doc2', 'doc3', 'doc4'],
-    "Section II": ['doc1', 'doc2', 'doc3', 'doc4'],
-    "Section III": ['doc1', 'doc2', 'doc3', 'doc4'],
-    "Ending": ['doc1','doc2','doc3','doc4','mdx'],
-  },
+  someSidebar: [
+   {
+     type: 'category',
+     label: 'Sectie I',
+     collapsed: false,
+     items: [
+        'doc1',
+        ],
+   },
+   {
+     type: 'category',
+     label: 'Sectie II',
+     collapsed: true,
+      items: [
+		'doc2',
+    		{
+      		type: 'category',
+      		label: 'Getting Started',
+      		collapsed: true,
+      		items: [
+			'doc4',
+			],
+    		},
+		'doc3',
+	], 
+   },
+  ],
 };

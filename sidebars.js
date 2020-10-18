@@ -23,6 +23,7 @@ module.exports = {
 			],
     		},
 		'doc3',
+		'about/about',
 	], 
    },
   ],

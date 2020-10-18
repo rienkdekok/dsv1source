@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'DSV1 Site My Site.',
-  tagline: 'The tagline of my site',
+  title: 'Digital Transformation',
+  tagline: 'Vertrekpunten en inzichten',
   url: 'https://rienkdekok.github.io',
   baseUrl: '/dsv1source/',
   onBrokenLinks: 'throw',
@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'dsv1source', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Digital Transformation',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -21,12 +21,18 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'About',
           position: 'right',
         },
+//        {to: 'blog', label: 'Blog', position: 'left'},
+//        {
+//         href: 'https://github.com/facebook/docusaurus',
+//          label: 'GitHub',
+//          position: 'right',
+//        },
       ],
     },
     footer: {
@@ -76,7 +82,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
   },
   presets: [

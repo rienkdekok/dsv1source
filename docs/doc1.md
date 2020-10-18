@@ -2,7 +2,7 @@
 id: doc1
 title: Style Guide
 sidebar_label: Style Guide
-slug: /
+//slug: /
 ---
 
 Yes, you can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

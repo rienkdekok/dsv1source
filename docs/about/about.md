@@ -2,7 +2,7 @@
 id: about
 title: About
 sidebar_label: About 
-//slug: /
+slug: /about/
 ---
 ## Audience
 The primary audience is me.

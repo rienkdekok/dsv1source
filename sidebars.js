@@ -1,9 +1,12 @@
 module.exports = {
   someSidebar: [
    {
+	Introduction: ['Introduction',],
+   },
+   {
      type: 'category',
      label: 'Sectie I',
-     collapsed: false,
+     collapsed: true,
      items: [
         'doc1',
         ],

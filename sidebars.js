@@ -1,8 +1,9 @@
 module.exports = {
-  someSidebar: [
-   {
+//	Introduction: ['Introduction',],
+  doc: [
+  {
 	Introduction: ['Introduction',],
-   },
+  },
    {
      type: 'category',
      label: 'Sectie I',
@@ -26,8 +27,8 @@ module.exports = {
 			],
     		},
 		'doc3',
-		'about/about',
 	], 
    },
   ],
+  about: ['about',],
 };

@@ -1,7 +1,7 @@
 ---
-id: Introduction
+id: introduction
 title: Introduction
 //sidebar_label: Style Guide
-slug: /
+//slug: /
 ---
 The essence ....

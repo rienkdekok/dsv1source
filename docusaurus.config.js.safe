@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Digital Transformation',
-  tagline: 'Vertrekpunten en inzichten',
+  tagline: 'Overview and Insights',
   url: 'https://rienkdekok.github.io',
   baseUrl: '/dsv1source/',
   onBrokenLinks: 'throw',
@@ -9,6 +9,7 @@ module.exports = {
   projectName: 'dsv1source', // Usually your repo name.
   themeConfig: {
     navbar: {
+      hideOnScroll: true,
       title: 'Digital Transformation',
       logo: {
         alt: 'dot',
@@ -21,12 +22,15 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {
-          to: 'docs/',
+  {
+//          type: 'doc',
+          to: 'docs/about',
           activeBasePath: 'docs',
-          label: 'About',
           position: 'right',
-        },
+	  docid: 'about',
+	  label: 'About',
+       },
+//
 //        {to: 'blog', label: 'Blog', position: 'left'},
 //        {
 //         href: 'https://github.com/facebook/docusaurus',

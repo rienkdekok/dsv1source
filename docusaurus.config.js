@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Digital Transformation',
-  tagline: 'Vertrekpunten en inzichten',
+  tagline: 'Overview and Insights',
   url: 'https://rienkdekok.github.io',
   baseUrl: '/dsv1source/',
   onBrokenLinks: 'throw',

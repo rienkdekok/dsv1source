@@ -17,15 +17,17 @@ module.exports = {
       },
       items: [
 	{
-           to: 'docs/introduction',
+           to: 'docs/',
            activeBasePath: 'docs', //original method
 	   position: 'left',
+	   id: 'introduction',
 	   label: 'Introduction',
 	},
   	{
-          to: 'docs/about',
+          to: 'docs/',
           activeBasePath: 'docs',
           position: 'left',
+	  id: 'about',
 	  label: 'About',
        },
   	{

@@ -16,19 +16,23 @@ module.exports = {
         src: 'img/dot.png',
       },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-  {
-//          type: 'doc',
+	{
+           to: 'docs/introduction',
+           activeBasePath: 'docs', //original method
+	   position: 'left',
+	   label: 'Introduction',
+	},
+  	{
           to: 'docs/about',
           activeBasePath: 'docs',
-          position: 'right',
-	  docid: 'about',
+          position: 'left',
 	  label: 'About',
+       },
+  	{
+          to: 'docs/ruimop/ruimop',
+          activeBasePath: 'docs/',
+          position: 'right',
+	  label: 'Ruimop',
        },
 //
 //        {to: 'blog', label: 'Blog', position: 'left'},
@@ -43,17 +47,17 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
+          title: '.',
+//          items: [
+//           {
+//              label: 'Style Guide',
+//              to: 'docs/',
+//            },
+//            {
+//              label: 'Second Doc',
+//              to: 'docs/doc2/',
+//            },
+ //         ],
         },
 //        {
 //         title: 'Community',
@@ -95,18 +99,18 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
+       docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://rienkdekok.github.io/dsv1source/edit/documentation/website/',
+//          editUrl:
+//            'https://rienkdekok.github.io/dsv1source/edit/documentation/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+//        blog: {
+//          showReadingTime: true,
+//          // Please change this to your repo.
+//          editUrl:
+//            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+//        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -114,3 +118,4 @@ module.exports = {
     ],
   ],
 };
+

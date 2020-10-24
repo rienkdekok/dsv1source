@@ -30,12 +30,12 @@ module.exports = {
 	  id: 'about',
 	  label: 'About',
        },
-  	{
-          to: 'docs/ruimop/ruimop',
-          activeBasePath: 'docs/',
-          position: 'right',
-	  label: 'Ruimop',
-       },
+//  	{
+//          to: 'docs/ruimop/ruimop',
+//          activeBasePath: 'docs/',
+//          position: 'right',
+//	  label: 'Ruimop',
+//       },
 //
 //        {to: 'blog', label: 'Blog', position: 'left'},
 //        {
